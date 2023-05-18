@@ -1,5 +1,10 @@
+import { CssBaseline } from "@mui/material";
 import React from "react";
 
-export default function MainLayout({ children }: { children: React.ReactNode }) {
+export default function MainLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return <div>{children}</div>;
 }
